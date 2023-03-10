@@ -1,0 +1,95 @@
+body, html{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    overflow: hidden;
+    position: sticky;
+}
+
+.topnav{
+    float: right;
+    font-size: 17px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.content{
+    text-align: center;
+    background-image: url("../images/proper.webp");
+    background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+}
+
+.textcontent{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.content2{
+    background-color: white;
+    height: auto;
+}
+
+.our{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.pic{
+    margin: 8px;
+    position: relative;
+}
+
+
+.us{
+    background-color: #202121;
+    color: white;
+    font-weight: bold;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.ustxt{
+    width: 300px;
+    padding: 12px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    right: 200px;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+.picture{
+    float: right;
+    position: relative;
+    bottom: 20%;
+    right: 30%;
+}
+
